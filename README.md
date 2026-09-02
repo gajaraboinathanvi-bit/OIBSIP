@@ -1,14 +1,25 @@
-OIBSIP
-Oasis infobyte internship projects
+🌸 Task 1: Iris Flower Classification
+Objective: Classify Iris flowers into three species (setosa, versicolor, virginica) based on sepal and petal measurements.
 
-Iris Flower Classification 🌸 About the Project This project was completed as part of the Oasis Infobyte Internship.
+Techniques Used:
 
-The objective is to build a machine learning model that can classify Iris flowers into three species:
+Data exploration and pair plots using Seaborn.
 
-Iris Setosa Iris Versicolor Iris Virginica Technologies Used Python Google Colab Pandas NumPy Matplotlib Scikit-learn Machine Learning The Iris dataset was used to train and test a classification model. The model predicts the species of an Iris flower based on its measurements.
+Model building using Supervised Machine Learning algorithms (Logistic Regression / Decision Trees / K-Nearest Neighbors).
 
-Result The trained model successfully predicts the Iris flower species.
+Evaluation metrics: Accuracy Score, Confusion Matrix, and Classification Report.
 
-Project File Iris_Flower_Classification.ipynb
+Folder Location: DataScience-Task1-IrisFlowerClassification/
 
-Internship Oasis Infobyte Internship — OIBSIP
+📉 Task 2: Unemployment Analysis with Python
+Objective: Analyze regional unemployment trends in India and evaluate the socio-economic impact of the COVID-19 pandemic.
+
+Techniques Used:
+
+Data cleaning, whitespace stripping, and datetime parsing.
+
+Exploratory Data Analysis (EDA) with Matplotlib & Seaborn (Bar charts, Time-series plots, and Correlation Heatmaps).
+
+Feature engineering to isolate and compare Pre-COVID vs. Post-COVID periods.
+
+Folder Location: DataScience-Task2-UnemploymentAnalysis/
