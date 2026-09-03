@@ -37,3 +37,30 @@ Encoded categorical variables using One-Hot/Label Encoding and generated correla
 Split data into train/test sets and trained regression models (Linear Regression, Random Forest Regressor, Gradient Boosting).Evaluated models using MAE, RMSE, and $R^2$ Score.
 
 Visualized feature importance for the best-performing model.
+
+# Task 4: Email Spam Detection with Machine Learning
+
+**Oasis Infobyte Data Science Internship (OIBSIP)**
+
+## Project Overview
+This project builds a Machine Learning model using Natural Language Processing (NLP) techniques to classify SMS and email messages as either **Spam** or **Ham** (legitimate).
+
+## Key Features
+- **Data Preprocessing**: Lowercasing, special character removal, stop-word filtering, and stemming using NLTK `PorterStemmer`.
+- **Feature Extraction**: TF-IDF (Term Frequency - Inverse Document Frequency) vectorization.
+- **Models Evaluated**:
+  - Multinomial Naive Bayes
+  - Logistic Regression
+- **Evaluation Metrics**: Precision, Recall, Accuracy, F1-Score, and Confusion Matrix.
+
+## Workflow & Steps
+1. **Dataset Loading**: Loaded SMS Spam Collection dataset.
+2. **Text Cleaning**: Applied regular expressions and stemming to prepare raw text for vectorization.
+3. **Exploratory Analysis**: Visualized common spam vs. ham terms using WordClouds.
+4. **Model Training**: Split data 80/20 with stratification and evaluated multiple classifiers.
+
+## Performance Summary
+- **Multinomial Naive Bayes**: High Precision and F1-score with fast execution time.
+- **Logistic Regression**: High baseline accuracy and robust performance on text features.
+
+## Repository Structure
